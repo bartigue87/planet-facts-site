@@ -41,5 +41,22 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 645px) {
+  .full-img {
+    width: 111px;
+    height: 111px;
+    margin-top: 142px;
+  }
+
+  .secondary-img {
+    width: 62px;
+    height: 75px;
+  }
+
+  #planet-image3 {
+    position: relative;
+    top: 228px;
+    left: 0px;
+    visibility: hidden;
+  }
 }
