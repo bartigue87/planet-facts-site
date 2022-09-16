@@ -12,8 +12,6 @@ const surfaceText =
   "Mercury's surface is similar in appearance to that of the Moon, showing extensive mare-like plains and heavy cratering, indicating that it has been geologically inactive for billions of years. It is more heterogeneous than either Mars's or the Moon’s.";
 const navItems = document.getElementById("nav-items");
 const infoBoxes = document.querySelector(".info-boxes-container");
-const hamburger = document.getElementById("hamburger");
-let isHamburgerClicked = false;
 
 function handleOverviewBtnClick() {
   internalBtn.classList.remove("active");
@@ -42,21 +40,6 @@ function handleSurfaceBtnClick() {
   mainText.textContent = surfaceText;
 }
 
-function handleHamburgerClick() {
-  toggleVisibilities();
-  isHamburgerClicked = !isHamburgerClicked;
-}
-
-function toggleVisibilities() {
-  isHamburgerClicked
-    ? (infoBoxes.style.visibility = "visible")
-    : (infoBoxes.style.visibility = "hidden");
-  isHamburgerClicked
-    ? (navItems.style.visibility = "hidden")
-    : (navItems.style.visibility = "visible");
-}
-
 overviewBtn.addEventListener("click", handleOverviewBtnClick);
 internalBtn.addEventListener("click", handleInternalBtnClick);
 surfaceBtn.addEventListener("click", handleSurfaceBtnClick);
-hamburger.addEventListener("click", handleHamburgerClick);

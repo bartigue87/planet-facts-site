@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=League+Spartan:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main-style.css">
+    <link rel="stylesheet" href="./styles/mercury-style.css">
+    <title>Planet Facts</title>
+</head>
+
+<body>
+    <nav>
+        <h3>The Planets</h3>
+        <img id="hamburger" class="hamburger" src="./images/hamburger.png" alt="hamburger menu" />
+        <ul id="nav-items" class="nav-items">
+            <div class="mobile-nav">
+                <div class="planet-icon" style="background-color: #DEF4FC;"></div>
+                <li onclick="location.href = 'mercury.html'">Mercury</li>
+                <img class="arrow" src="./images/arrow.png" />
+            </div>
+            <div class="mobile-nav">
+                <div class="planet-icon" style="background-color: #F7CC7F;"></div>
+                <li onclick="location.href = 'venus.html'">Venus</li>
+                <img class="arrow" src="./images/arrow.png" />
+            </div>
+            <div class="mobile-nav">
+                <div class="planet-icon" style="background-color: #545BFE;"></div>
+                <li onclick="location.href = 'earth.html'">Earth</li>
+                <img class="arrow" src="./images/arrow.png" />
+            </div>
+            <div class="mobile-nav">
+                <div class="planet-icon" style="background-color: #FF6A45;"></div>
+                <li onclick="location.href = 'mars.html'">Mars</li>
+                <img class="arrow" src="./images/arrow.png" />
+            </div>
+            <div class="mobile-nav">
+                <div class="planet-icon" style="background-color: #ECAD7A;"></div>
+                <li onclick="location.href = 'jupiter.html'">Jupiter</li>
+                <img class="arrow" src="./images/arrow.png" />
+            </div>
+            <div class="mobile-nav">
+                <div class="planet-icon" style="background-color: #FCCB6B;"></div>
+                <li onclick="location.href = 'saturn.html'">Saturn</li>
+                <img class="arrow" src="./images/arrow.png" />
+            </div>
+            <div class="mobile-nav">
+                <div class="planet-icon" style="background-color: #65F0D5;"></div>
+                <li onclick="location.href = 'uranus.html'">Uranus</li>
+                <img class="arrow" src="./images/arrow.png" />
+            </div>
+            <div class="mobile-nav">
+                <div class="planet-icon" style="background-color: #497EFA;"></div>
+                <li style="text-decoration: underline; color: #497EFA;" onclick="location.href = 'neptune.html'">Neptune
+                </li>
+                <img class="arrow" src="./images/arrow.png" />
+            </div>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <img id="planet-image" class="full-img" src="./images/mercury1.png" alt="illustrative depiction of mercury" />
+        <img id="planet-image2" class="full-img" src="./images/mercury2.png" alt="illustrative depiction of mercury" />
+        <img id="planet-image3" class="secondary-img" src="./images/mercury3.png"
+            alt="illustrative depiction of mercury" />
+        <div class="planet-info-container">
+            <div class="text-container">
+                <h1>Mercury</h1>
+                <p id="main-text">Mercury is the smallest planet in the Solar System and the closest to the Sun. Its
+                    orbit
+                    around the Sun
+                    takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial
+                    planets in the Solar System, and is a rocky body like Earth.</p>
+                <p class="source">Source: <a>Wikipedia</a></p>
+            </div>
+            <div class="btn-container">
+                <div id="overview-btn" class="btn active">
+                    <p>01</p>
+                    <p>Overview</p>
+                </div>
+                <div id="internal-btn" class="btn">
+                    <p>02</p>
+                    <p>Internal <span>Structure</span></p>
+                </div>
+                <div id="surface-btn" class="btn">
+                    <p>03</p>
+                    <p>Surface <span>Geology</span></p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <div class="info-boxes-container">
+        <div class="info-boxes">
+            <p>Rotation Time</p>
+            <h4>58.6 days</h4>
+        </div>
+        <div class="info-boxes">
+            <p>Revolution Time</p>
+            <h4>87.97 days</h4>
+        </div>
+        <div class="info-boxes">
+            <p>Radius</p>
+            <h4>2,439.7 KM</h4>
+        </div>
+        <div class="info-boxes">
+            <p>Average Temp</p>
+            <h4>430°C</h4>
+        </div>
+    </div>
+    <script src="./js/mercury.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

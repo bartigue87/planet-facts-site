@@ -51,6 +51,10 @@ nav > h3 {
   text-transform: uppercase;
 }
 
+li {
+  cursor: pointer;
+}
+
 hr {
   position: absolute;
   width: 1440px;
@@ -252,7 +256,8 @@ h1 {
   }
 
   .text-container {
-    max-width: 339px;
+    margin: 0 auto;
+    max-width: 327px;
   }
 
   .btn > :first-child {
