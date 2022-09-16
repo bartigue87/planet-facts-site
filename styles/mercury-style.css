@@ -1,0 +1,45 @@
+.full-img {
+  width: 290px;
+  height: 290px;
+}
+
+.secondary-img {
+  width: 163px;
+  height: 199px;
+}
+#planet-image {
+  position: absolute;
+}
+#planet-image2 {
+  position: absolute;
+  visibility: hidden;
+}
+#planet-image3 {
+  position: relative;
+  top: 180px;
+  left: 64px;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .full-img {
+    width: 184px;
+    height: 184px;
+    margin-top: 62px;
+  }
+
+  .secondary-img {
+    width: 105px;
+    height: 129px;
+  }
+
+  #planet-image3 {
+    position: relative;
+    top: 210px;
+    left: 0px;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 500px) {
+}

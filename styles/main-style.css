@@ -51,11 +51,6 @@ hr {
   opacity: 0.2;
 }
 
-img {
-  width: 290px;
-  height: 290px;
-}
-
 main {
   position: relative;
   top: 50px;
@@ -126,6 +121,7 @@ h1 {
   line-height: 25px;
   letter-spacing: 2.57143px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .btn > :first-child {
@@ -133,10 +129,14 @@ h1 {
   opacity: 0.5;
 }
 
+.active {
+  background-color: #419ebb;
+}
+
 .info-boxes-container {
   display: flex;
   justify-content: space-between;
-  width: 1110px;
+  max-width: 1110px;
   margin: 0 auto;
   position: relative;
   top: 127px;
@@ -178,4 +178,107 @@ h1 {
   mix-blend-mode: normal;
   opacity: 0.5;
   margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav > h3 {
+    margin: 32px 0 27px;
+  }
+
+  .nav-items {
+    margin: 0;
+    padding: 0;
+  }
+
+  hr {
+    width: 100%;
+    top: 129px;
+  }
+
+  main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .planet-info-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 270px;
+  }
+
+  .source {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 62px;
+  }
+
+  #main-text {
+    font-size: 11px;
+    line-height: 22px;
+  }
+
+  .btn-container {
+    width: 281px;
+    height: 152px;
+  }
+
+  .btn {
+    width: 281px;
+    height: 40px;
+    gap: 16px;
+    font-size: 9px;
+  }
+
+  .text-container {
+    max-width: 339px;
+  }
+
+  .btn > :first-child {
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+
+  .active {
+    background-color: #419ebb;
+  }
+
+  .info-boxes-container {
+    width: 90%;
+    top: 127px;
+    padding-bottom: 56px;
+  }
+
+  .info-boxes {
+    height: 88px;
+    width: 164px;
+  }
+
+  .info-boxes > h4 {
+    top: 21px;
+    left: 15px;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: -0.9px;
+  }
+
+  .info-boxes > p {
+    left: 15px;
+    top: 16px;
+    font-size: 8px;
+    line-height: 16px;
+    letter-spacing: 0.72px;
+  }
+}
+
+@media screen and (max-width: 500px) {
 }
