@@ -5,11 +5,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=League+Spartan:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Planet Facts</title>
 </head>
 
 <body>
+    <nav>
+        <h3>The Planets</h3>
+        <ul class="nav-items">
+            <li>Mercury</li>
+            <li>Venus</li>
+            <li>Earth</li>
+            <li>Mars</li>
+            <li>Jupiter</li>
+            <li>Saturn</li>
+            <li>Uranus</li>
+            <li>Neptune</li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <img id="planet-image" src="./images/mercury1.png" alt="illustrative depiction of mercury" />
+        <div class="planet-info-container">
+            <h1>Mercury</h1>
+            <p id="main-text">Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit
+                around the Sun
+                takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial
+                planets in the Solar System, and is a rocky body like Earth.</p>
+            <p class="source">Source: <a>Wikipedia</a></p>
+            <div class="btn-container">
+                <div id="overview-btn" class="btn active">
+                    <p>01</p>
+                    <p>Overview</p>
+                </div>
+                <div id="internal-btn" class="btn">
+                    <p>02</p>
+                    <p>Internal Structure</p>
+                </div>
+                <div id="surface-btn" class="btn">
+                    <p>03</p>
+                    <p>Surface Geology</p>
+                </div>
+            </div>
 
+        </div>
+    </main>
+    <div class="info-boxes-container">
+        <div class="info-boxes">
+            <p>Rotation Time</p>
+            <h4>58.6 days</h4>
+        </div>
+        <div class="info-boxes">
+            <p>Revolution Time</p>
+            <h4>87.97 days</h4>
+        </div>
+        <div class="info-boxes">
+            <p>Radius</p>
+            <h4>2,439.7 KM</h4>
+        </div>
+        <div class="info-boxes">
+            <p>Average Temp</p>
+            <h4>430°C</h4>
+        </div>
+    </div>
+    <script src="./js/mercury.js"></script>
 </body>
 
 </html>

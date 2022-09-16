@@ -1,0 +1,181 @@
+* {
+  margin: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #070724;
+  color: #ffffff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 32px 0 41px;
+}
+
+nav > h3 {
+  font-family: "Antonio";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -1.05px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  gap: 33px;
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+hr {
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  left: 0px;
+  top: 66px;
+
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.2;
+}
+
+img {
+  width: 290px;
+  height: 290px;
+}
+
+main {
+  position: relative;
+  top: 50px;
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.planet-info-container {
+  width: 350px;
+}
+
+.source {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.source > a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: "Antonio";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 104px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#main-text {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.btn-container {
+  width: 350px;
+  height: 176px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn {
+  display: flex;
+  width: 350px;
+  height: 48px;
+  padding-left: 28px;
+  gap: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 2.57143px;
+  text-transform: uppercase;
+}
+
+.btn > :first-child {
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.info-boxes-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+  margin: 0 auto;
+  position: relative;
+  top: 127px;
+  padding-bottom: 56px;
+}
+
+.info-boxes {
+  position: relative;
+  height: 128px;
+  width: 255px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.info-boxes > h4 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-family: "Antonio";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.info-boxes > p {
+  position: relative;
+  left: 23px;
+  top: 20px;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin: 0;
+}
