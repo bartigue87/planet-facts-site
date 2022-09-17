@@ -1,0 +1,65 @@
+.full-img {
+  width: 582px;
+  height: 582px;
+  padding: 40px;
+}
+
+.secondary-img {
+  width: 163px;
+  height: 199px;
+}
+#planet-image {
+  position: absolute;
+}
+#planet-image2 {
+  position: absolute;
+  visibility: hidden;
+}
+#planet-image3 {
+  position: relative;
+  top: 180px;
+  left: 209px;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .full-img {
+    width: 369px;
+    height: 369px;
+    margin-top: 62px;
+    padding: 0;
+    top: -50px;
+  }
+
+  .secondary-img {
+    width: 105px;
+    height: 129px;
+  }
+
+  #planet-image3 {
+    position: relative;
+    top: 250px;
+    left: 0px;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .full-img {
+    width: 224px;
+    height: 224px;
+    margin-top: 142px;
+  }
+
+  .secondary-img {
+    width: 62px;
+    height: 75px;
+  }
+
+  #planet-image3 {
+    position: relative;
+    top: 258px;
+    left: 0px;
+    visibility: hidden;
+  }
+}
