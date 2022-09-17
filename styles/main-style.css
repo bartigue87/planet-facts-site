@@ -140,13 +140,13 @@ h1 {
   cursor: pointer;
 }
 
+.btn:hover {
+  background-color: #38384f;
+}
+
 .btn > :first-child {
   mix-blend-mode: normal;
   opacity: 0.5;
-}
-
-.active {
-  background-color: #419ebb;
 }
 
 .info-boxes-container {
@@ -263,10 +263,6 @@ h1 {
   .btn > :first-child {
     mix-blend-mode: normal;
     opacity: 0.5;
-  }
-
-  .active {
-    background-color: #419ebb;
   }
 
   .info-boxes-container {
@@ -443,12 +439,6 @@ h1 {
     display: none;
   }
 
-  .active {
-    background-color: transparent;
-    opacity: 1;
-    border-bottom: 5px solid #419ebb;
-  }
-
   .info-boxes-container {
     flex-direction: column;
     width: 90%;
@@ -479,5 +469,14 @@ h1 {
     line-height: 16px;
     letter-spacing: 0.72px;
     margin-left: 24px;
+  }
+
+  .btn:hover {
+    background-color: transparent !important;
+    border-bottom: 5px solid #38384f;
+  }
+
+  .active:hover {
+    background-color: transparent !important;
   }
 }

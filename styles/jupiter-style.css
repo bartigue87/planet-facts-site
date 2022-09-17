@@ -3,7 +3,12 @@
   height: 582px;
   padding: 40px;
 }
-
+.active {
+  background-color: #d83a34;
+}
+.active:hover {
+  background-color: #d83a34;
+}
 .secondary-img {
   width: 163px;
   height: 199px;
@@ -61,5 +66,13 @@
     top: 258px;
     left: 0px;
     visibility: hidden;
+  }
+  .active {
+    background-color: transparent;
+    opacity: 1;
+    border-bottom: 5px solid #d83a34;
+  }
+  .active:hover {
+    border-bottom: 5px solid #d83a34;
   }
 }
