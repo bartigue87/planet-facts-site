@@ -1,6 +1,6 @@
 .full-img {
-  width: 400px;
-  height: 400px;
+  width: 458px;
+  height: 458px;
 }
 
 .secondary-img {
@@ -17,14 +17,14 @@
 #planet-image3 {
   position: relative;
   top: 180px;
-  left: 119px;
+  left: 148px;
   visibility: hidden;
 }
 
 @media screen and (max-width: 1024px) {
   .full-img {
-    width: 253px;
-    height: 253px;
+    width: 290px;
+    height: 290px;
     margin-top: 62px;
   }
 
@@ -43,8 +43,8 @@
 
 @media screen and (max-width: 645px) {
   .full-img {
-    width: 154px;
-    height: 154px;
+    width: 176px;
+    height: 176px;
     margin-top: 142px;
   }
 
