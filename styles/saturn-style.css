@@ -2,6 +2,7 @@
   width: 666px;
   height: 666px;
   padding: 50px;
+  z-index: -1;
 }
 .active {
   background-color: #cd5120;
